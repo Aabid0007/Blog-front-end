@@ -18,9 +18,8 @@
     align-items: flex-start;
 }
 .Preview_content{
-    padding: 10px 38px 15px 15px;
-    gap: 15px;
-   
+    padding: 10px 19px 15px 15px;
+    overflow-wrap: anywhere;
 }
 .PreviewContent p{
     padding-bottom: 20px;

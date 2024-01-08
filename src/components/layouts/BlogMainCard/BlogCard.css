@@ -14,11 +14,11 @@
   }
 
   .Blog_contant {
-    padding: 10px 38px 15px 15px;
+    padding: 10px 25px 15px 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-
+    overflow-wrap: anywhere;
   }
 
   .Blog_contant h3 {

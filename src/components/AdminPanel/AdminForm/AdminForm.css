@@ -38,10 +38,11 @@
 }
 .textarea{
     max-width: 98%;
-    min-height: 130px;
+    min-height: 151px;
     min-width: 98%;
     font-size: 14px;
     font-weight: 500;
     padding: 8px 5px;
     border-radius: 10px;
+   
 }

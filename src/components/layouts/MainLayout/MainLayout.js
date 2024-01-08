@@ -17,6 +17,7 @@ const MainLayout = () => {
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
     };
+
     return (
         <div className='MainPage'>
             <div className='container'>
