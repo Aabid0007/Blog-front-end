@@ -3,7 +3,7 @@ import BlogSub from './BlogSub/BlogSub'
 import PopularPost from './PopularPost/PopularPost'
 import BlogTag from './BlogTags/BlogTag'
 import "./MainSubSection.css"
-const MainSubSection = () => {
+const MainSubSection = ({popularBlogs}) => {
   return (
     <>
       <BlogSub />
@@ -11,7 +11,7 @@ const MainSubSection = () => {
         <div className='Postcard_content'>
           <div className='PopularHeading'><h4>Popular Posts</h4>
           </div>
-          <PopularPost />
+          <PopularPost popularBlogs={popularBlogs} />
         </div>
       </div>
       <div className='Sub_Main_Section'>

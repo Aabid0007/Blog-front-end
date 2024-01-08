@@ -2,7 +2,7 @@ import React from 'react'
 import "./BlogSub.css"
 const BlogSub = () => {
     const Subpost = [
-        { id: 1, image: "https://www.w3schools.com/w3images/avatar_g.jpg", heading: "My Name", content: "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you." },
+        { id: 1, image: "https://www.w3schools.com/w3images/avatar_g.jpg", heading: "My Name", description: "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you." },
     ]
     return (
         <>
@@ -12,7 +12,7 @@ const BlogSub = () => {
                         <img className='subCardImage' src={value.image} alt="" />
                         <div className='Blog_sub_contant'>
                             <h4>{value.heading}</h4>
-                            <p>{value.content}</p>
+                            <p>{value.description}</p>
                         </div>
                     </div>
                 </div>
